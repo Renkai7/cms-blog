@@ -11,6 +11,12 @@ import {
 	CommentsForm,
 } from "../../components";
 
+// This component displays the details of a post including post content,
+// author information, comments form, and existing comments.
+// The post content and author information are displayed in an 8-column grid
+// while the comments form, existing comments, and post widget are displayed
+// in a 4-column grid. On large screens, the post widget and categories are
+// displayed in a sticky side
 const PostDetails = ({ post }) => {
 	return (
 		<div className="container mx-auto px-10 mb-8">
