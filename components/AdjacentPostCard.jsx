@@ -2,6 +2,7 @@ import React from "react";
 import moment from "moment";
 import Link from "next/link";
 
+// This function is a React component that renders a card displaying the details of a related blog post. It takes in a post object and a position string as props, with the post object containing information about the related blog post, including the post title, creation date, and featured image. The component uses this information to render the post details within a card component, including the title and creation date with a featured image in the background. Additionally, the card includes an arrow button that links to the full details page of the related blog post. The position prop determines the position of the card, with options of LEFT or RIGHT.
 const AdjacentPostCard = ({ post, position }) => (
 	<>
 		<div
