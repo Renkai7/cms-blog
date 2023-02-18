@@ -13,12 +13,7 @@ import {
 	Loader,
 } from "../../components";
 
-// This component displays the details of a post including post content,
-// author information, comments form, and existing comments.
-// The post content and author information are displayed in an 8-column grid
-// while the comments form, existing comments, and post widget are displayed
-// in a 4-column grid. On large screens, the post widget and categories are
-// displayed in a sticky side
+// This function is a React component that renders the details of a blog post. It takes in a post object as a prop, which includes information such as the post content, author information, categories, and comments. The function uses this information to render the post content, author information, and both a comments form and section. The component also includes widgets related to the post, such as categories and related posts.
 const PostDetails = ({ post }) => {
 	const router = useRouter();
 
